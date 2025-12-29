@@ -95,6 +95,27 @@ body {
 .weather {
   display: none;
 }
+@media (max-width: 600px) {
+  .card {
+    width: 90vw;
+    padding: 15px 20px;
+  }
+  .search {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .weather h1 {
+    font-size: 60px;
+  }
+  .weather h2 {
+    font-size: 35px;
+  }
+  .details {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 .error {
   /* display: none; */
   text-align: center;
