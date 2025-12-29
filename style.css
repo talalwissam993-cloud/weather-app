@@ -104,11 +104,13 @@ body {
     padding: 15px 20px;
     justify-content: center;
   }
-  .search {
+  .search input {
     gap: 10px;
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    text-align: center;
+
   }
   .weather h1 {
     font-size: 60px;
@@ -130,7 +132,9 @@ body {
   .search input {
     flex-direction: column;
     justify-content: center;
-    width: 40%;
+    width: 100%;
+      text-align: center;
+
   }
   .weather-icon {
     width: 120px;
