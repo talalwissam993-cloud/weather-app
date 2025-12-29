@@ -97,14 +97,15 @@ body {
 }
 @media (max-width: 600px) {
   .card {
-    width: 100%;
+    width: 90%;
     padding: 15px 20px;
+    justify-content: center;
   }
   .search {
     gap: 10px;
-        width: 100%;
-
     flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
   .weather h1 {
     font-size: 60px;
@@ -117,6 +118,7 @@ body {
     gap: 20px;
   }
 }
+
 
 .error {
   /* display: none; */
