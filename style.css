@@ -29,6 +29,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .search input {
   border: 0;
@@ -40,6 +41,8 @@ body {
   font-size: 18px;
   margin-right: 16px;
   flex: 1;
+    text-align: center;
+
 }
 .search button {
   border: 0;
