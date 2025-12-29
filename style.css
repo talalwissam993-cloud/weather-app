@@ -102,6 +102,8 @@ body {
   }
   .search {
     gap: 10px;
+        width: 100%;
+
     flex-direction: column;
   }
   .weather h1 {
