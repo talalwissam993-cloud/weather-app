@@ -118,6 +118,22 @@ body {
     gap: 20px;
   }
 }
+@media screen and (max-width: 350px) {
+  .card {
+    width: 90%;
+    padding: 15px 20px;
+    justify-content: center;
+  }
+  .search input {
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+  }
+  .weather-icon {
+    width: 120px;
+    margin: 20px 0;
+  }
+}
 
 
 .error {
